@@ -1,10 +1,14 @@
-int value = 0;
-int r = 255;
-int g = 255;
-int b = 255;
+int value;
+int r;
+int g;
+int b;
 public void setup(){
   size(500,500);
-  fill(r, g, b);
+  value = 0;
+  r = 255;
+  g = 255;
+  b = 255;
+  // fill(r, g, b);
 }
 public void draw(){
   background(0);
@@ -54,8 +58,8 @@ public void sierpinski(int x, int y, int len) {
     triangle(x, y, x+len, y, x+len/2, y+len);
   } else {
     sierpinski(x, y, len/2);
-    sierpinski(x + len/2, y, len/2);
-    sierpinski(x + len/4, y  + len/2, len/2);
+    sierpinski(x+len/2, y, len/2);
+    sierpinski(x+len/4, y+len/2, len/2);
   }
 }
 
