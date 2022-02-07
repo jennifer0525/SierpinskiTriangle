@@ -37,14 +37,14 @@ void keyPressed(){
     }
   }
 }
-/*
+
 void mousePressed(){
   // redraw();
   r = (int)(Math.random()*256);
   g = (int)(Math.random()*256);
   b = (int)(Math.random()*256);
 }
-*/
+
 
 public void sierpinski(int x, int y, int len) {
   // triangle(x, y, x+len, y, x+len/2, y+len);
