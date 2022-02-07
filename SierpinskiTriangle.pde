@@ -13,7 +13,7 @@ public void setup(){
 public void draw(){
   background(0);
   fill(r, g, b);
-  sierpinski(100,100,300);
+  sierpinski(50,50,30);
   // rect(100, 100, 100, 100);
 }
 
@@ -25,7 +25,7 @@ public void mouseMoved(){
   }
 }
 */
-/*
+
 // KEYCODE FOR ARROWS - 37: left key, 39: right, 38: up key, 40: down key
 void keyPressed(){
   if (key == CODED){
@@ -42,15 +42,15 @@ void keyPressed(){
     }
   }
 }
-*/
-/*
+
+
 void mousePressed(){
   // redraw();
   r = (int)(Math.random()*256);
   g = (int)(Math.random()*256);
   b = (int)(Math.random()*256);
 }
-*/
+
 
 public void sierpinski(int x, int y, int len) {
   // triangle(x, y, x+len, y, x+len/2, y+len);
