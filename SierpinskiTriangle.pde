@@ -9,7 +9,8 @@ public void setup(){
 public void draw(){
   background(0);
   fill(r, g, b);
-  sierpinski(100,100,300);
+  //sierpinski(100,100,300);
+  rect(100, 100, 100, 100);
 }
 
 /* 
@@ -38,7 +39,7 @@ void keyPressed(){
   }
 }
 */
-
+/*
 void mousePressed(){
   // redraw();
   r = (int)(Math.random()*256);
@@ -56,6 +57,6 @@ public void sierpinski(int x, int y, int len) {
     sierpinski(x + len/2, y, len/2);
     sierpinski(x + len/4, y  + len/2, len/2);
   }
-}
+}*/
 
 
