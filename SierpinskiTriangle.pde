@@ -20,7 +20,7 @@ public void mouseMoved(){
   }
 }
 */
-
+/*
 // KEYCODE FOR ARROWS - 37: left key, 39: right, 38: up key, 40: down key
 void keyPressed(){
   if (key == CODED){
@@ -37,6 +37,7 @@ void keyPressed(){
     }
   }
 }
+*/
 
 void mousePressed(){
   // redraw();
