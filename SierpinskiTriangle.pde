@@ -46,6 +46,7 @@ void mousePressed(){
 }
 
 public void sierpinski(int x, int y, int len) {
+  // triangle(x, y, x+len, y, x+len/2, y+len);
   if (len <= value){
     triangle(x, y, x+len, y, x+len/2, y+len);
   } else {
@@ -54,3 +55,5 @@ public void sierpinski(int x, int y, int len) {
     sierpinski(x + len/4, y  + len/2, len/2);
   }
 }
+
+
