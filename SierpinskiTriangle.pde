@@ -3,12 +3,12 @@ int r = 255;
 int g = 255;
 int b = 255;
 public void setup(){
-  size (500,500);
-  fill (r, g, b);
+  size(500,500);
+  fill(r, g, b);
 }
 public void draw(){
-  background (0);
-  fill (r, g, b);
+  background(0);
+  fill(r, g, b);
   sierpinski(100,100,300);
 }
 
