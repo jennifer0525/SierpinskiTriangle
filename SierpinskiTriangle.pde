@@ -4,7 +4,7 @@ int sizing;
 // int b;
 public void setup(){
   size(500,500);
-  sizing = 0;
+  sizing = 20;
   // r = 255;
   // g = 255;
   // b = 255;
