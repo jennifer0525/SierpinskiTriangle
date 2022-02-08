@@ -8,12 +8,12 @@ public void setup(){
   // r = 255;
   // g = 255;
   // b = 255;
+  fill(255, 255, 255);
 }
 public void draw(){
   background(0);
   fill(255, 255, 255);
   sierpinski(100,100,300);
-  // rect(100, 100, 100, 100);
 }
 
 /* 
