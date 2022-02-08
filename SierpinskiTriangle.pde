@@ -1,10 +1,10 @@
-int value;
+int sizing;
 int r;
 int g;
 int b;
 public void setup(){
   size(500,500);
-  value = 0;
+  sizing = 0;
   r = 255;
   g = 255;
   b = 255;
@@ -13,15 +13,15 @@ public void setup(){
 public void draw(){
   background(0);
   fill(r, g, b);
-  sierpinski(50,50,30);
+  sierpinski(100,100,300);
   // rect(100, 100, 100, 100);
 }
 
 /* 
 public void mouseMoved(){
-  value = value + 30;
-  if (value >= 100){
-    value = 0;
+  sizing = sizing + 30;
+  if (sizing >= 100){
+    sizing = 0;
   }
 }
 */
@@ -30,14 +30,14 @@ public void mouseMoved(){
 void keyPressed(){
   if (key == CODED){
     if (keyCode == UP){
-      value = value + 30;
-      if (value >= 300){
-        value = 0;
+      sizing = sizing + 30;
+      if (sizing >= 300){
+        sizing = 0;
         } 
     } else if (keyCode == DOWN){
-      value = value - 30;
-       if (value <= 0){
-          value = 300;
+      sizing = sizing - 30;
+       if (sizing <= 0){
+          sizing = 300;
       } 
     }
   }
@@ -54,7 +54,7 @@ void mousePressed(){
 
 public void sierpinski(int x, int y, int len) {
   // triangle(x, y, x+len, y, x+len/2, y+len);
-  if (len <= value){
+  if (len <= sizing){
     triangle(x, y, x+len, y, x+len/2, y+len);
   } else {
     sierpinski(x, y, len/2);
