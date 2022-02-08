@@ -16,15 +16,15 @@ public void draw(){
   sierpinski(100,100,300);
 }
 
-/* 
-public void mouseMoved(){
+
+public void mouseDragged(){
   sizing = sizing + 30;
   if (sizing >= 100){
     sizing = 0;
   }
 }
-*/
 
+/*
 // KEYCODE FOR ARROWS - 37: left key, 39: right, 38: up key, 40: down key
 void keyPressed(){
   if (key == CODED){
@@ -41,6 +41,7 @@ void keyPressed(){
     }
   }
 }
+*/
 
 /*
 void mousePressed(){
