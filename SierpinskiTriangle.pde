@@ -4,7 +4,7 @@ int g;
 int b;
 public void setup(){
   size(500,500);
-  sizing = 300;
+  sizing = 100;
   r = 255;
   g = 255;
   b = 255;
