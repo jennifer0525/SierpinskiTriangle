@@ -11,7 +11,7 @@ public void setup(){
 }
 public void draw(){
   background(0);
-  fill(r, g, b);
+  fill(255, 255, 255);
   sierpinski(100,100,300);
   // rect(100, 100, 100, 100);
 }
