@@ -13,7 +13,7 @@ public void setup(){
 public void draw(){
   background(0);
   fill(255, 255, 255);
-  sierpinski(100,100,300);
+  sierpinski(100,300,150);
 }
 
 
