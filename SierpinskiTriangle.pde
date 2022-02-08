@@ -8,22 +8,21 @@ public void setup(){
   r = 255;
   g = 255;
   b = 255;
-  fill(255, 255, 255);
 }
 public void draw(){
   background(0);
-  fill(255, 255, 255);
-  sierpinski(100,300,150);
+  fill(r, g, b);
+  sierpinski(100,300,200);
 }
 
-
-public void mouseDragged(){
+/*
+public void mouseMoved(){
   sizing = sizing + 30;
   if (sizing >= 100){
     sizing = 0;
   }
 }
-
+*/
 
 // KEYCODE FOR ARROWS - 37: left key, 39: right, 38: up key, 40: down key
 void keyPressed(){
