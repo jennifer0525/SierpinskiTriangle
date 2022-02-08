@@ -1,14 +1,13 @@
 int sizing;
-int r;
-int g;
-int b;
+// int r;
+// int g;
+// int b;
 public void setup(){
   size(500,500);
   sizing = 0;
-  r = 255;
-  g = 255;
-  b = 255;
-  // fill(r, g, b);
+  // r = 255;
+  // g = 255;
+  // b = 255;
 }
 public void draw(){
   background(0);
@@ -25,7 +24,7 @@ public void mouseMoved(){
   }
 }
 */
-
+/*
 // KEYCODE FOR ARROWS - 37: left key, 39: right, 38: up key, 40: down key
 void keyPressed(){
   if (key == CODED){
@@ -42,15 +41,15 @@ void keyPressed(){
     }
   }
 }
-
-
+*/
+/*
 void mousePressed(){
   // redraw();
   r = (int)(Math.random()*256);
   g = (int)(Math.random()*256);
   b = (int)(Math.random()*256);
 }
-
+*/
 
 public void sierpinski(int x, int y, int len) 
 {
