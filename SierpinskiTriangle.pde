@@ -53,13 +53,12 @@ void mousePressed(){
 
 
 public void sierpinski(int x, int y, int len) {
-  // triangle(x, y, x+len, y, x+len/2, y+len);
   if (len == sizing){
-    triangle(x, y, x+len, y, x+len/2, y+len);
+    triangle(x, y, x+len, y, x+len/2, y-len);
   } else {
     sierpinski(x, y, len/2);
     sierpinski(x+len/2, y, len/2);
-    sierpinski(x+len/4, y+len/2, len/2);
+    sierpinski(x+len/4, y-len/2, len/2);
   }
 }
 
