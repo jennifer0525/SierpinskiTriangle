@@ -12,7 +12,7 @@ public void setup(){
 public void draw(){
   background(0);
   fill(r, g, b);
-  sierpinski(100,300,200);
+  sierpinski(250,300,250);
 }
 
 /*
@@ -31,12 +31,15 @@ void keyPressed(){
       sizing = sizing + 30;
       if (sizing >= 300){
         sizing = 0;
-        } 
+        } else {
+        sizing = 50;
     } else if (keyCode == DOWN){
       sizing = sizing - 30;
        if (sizing <= 0){
           sizing = 300;
-      } 
+      } else {
+          sizing = 50;
+      }
     }
   }
 }
